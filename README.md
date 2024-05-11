@@ -1,4 +1,4 @@
-
+<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&text=Welcome%20to%20my%20GitHub%20profile&reversal=true&rotate=0&strokeWidth=0&animation=twinkling&descAlignY=0&fontAlign=65&fontColor=1f8cb8&fontSize=22&fontAlignY=57&descAlign=0&textBg=false) -->
 ### 📈 GitHub Activity Graph:
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Naperehvate&theme=react-dark)
 
@@ -59,10 +59,17 @@
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=naperehvate&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=000000&hide_border=true&locale=en&custom_title=Top%20%Languages"
         alt="Top Languages"
     />
-</a>
+</a><p>
+
+<b>Codewars Stats</b>
+
+[![codewars](https://www.codewars.com/users/Naperehvate/badges/large)](https://www.codewars.com/users/Naperehvate)
+
+<!-- <b>LeetCode Stats</b>
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/naperehvate?theme=dark&font=Moulpali&ext=heatmap) -->
 
 
-[![codewars](https://www.codewars.com/users/Naperehvate/badges/large)](https://www.codewars.com/users/Naperehvate)   
 
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hello%20World!&fontSize=75&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&descAlignY=51&descAlign=62)
+
