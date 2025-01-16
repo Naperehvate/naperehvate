@@ -3,10 +3,13 @@
 ### 📈 GitHub Activity Graph:
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Naperehvate&theme=react-dark)
 
-<img align="right" alt="GIF" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2hxdXV2b3UwdWRuZWNjaXBmdTBkZnkzYWtyNmI5YWp4ZnZsNDd5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4UzW8S83pWoKs/giphy.gif" width="400" height="350" />
+
 
 <h2> 💻Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="40"> </h2>
+
 <p>
+
+<img align="right" alt="GIF" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2RxM2FsM2ZhajAxMHJjNHg3ajhwY2lvczE4NzRweDZhbmc3cmJiZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f3iwJFOVOwuy7K6FFw/giphy.gif" width="400" height="250" />
     <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
