@@ -1,7 +1,8 @@
 ![](https://visitcount.itsvg.in/api?id=Naperehvate&icon=5&color=12)
 
-### 📈 GitHub Activity Graph:
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Naperehvate&theme=react-dark)
+### 📈 GitHub Activity
+
+![GitHub Activity](https://raw.githubusercontent.com/Naperehvate/Naperehvate/activity-assets/activity-30d.svg)
 
 
 
