@@ -1,6 +1,5 @@
 ![](https://visitcount.itsvg.in/api?id=Naperehvate&icon=5&color=12)
 
-### 📈 GitHub Activity
 
 ![GitHub Activity](https://raw.githubusercontent.com/Naperehvate/Naperehvate/activity-assets/activity-30d.svg)
 
