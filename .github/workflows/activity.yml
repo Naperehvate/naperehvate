@@ -207,7 +207,7 @@ jobs:
               ).strftime("%d %b %Y")
 
               if count > 0:
-                  radius = 4.6
+                  radius = 3.6
                   fill = "#ffffff"
                   stroke = "#61dafb"
                   stroke_width = 2
