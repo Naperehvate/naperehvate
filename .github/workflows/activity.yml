@@ -1,8 +1,13 @@
 name: Update GitHub Activity
 
 on:
+  push:
+    branches:
+      - main
+
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "*/5 * * * *"
+
   workflow_dispatch:
 
 permissions:
@@ -21,25 +26,51 @@ jobs:
         with:
           username: Naperehvate
           token: ${{ github.token }}
-          default-days: '30'
-          ranges: '30'
+          default-days: "30"
+          ranges: "30"
+          theme: github-compact
           layout: spacious
-          hide-border: 'true'
+          hide-border: "true"
           output-dir: activity-dist
           title: GitHub Activity - Last 30 Days
+
+      - name: Recolor chart to React Dark style
+        shell: python
+        run: |
+          from pathlib import Path
+
+          replacements = {
+              "#39d353": "#61dafb",
+              "#56d364": "#61dafb",
+              "#58a6ff": "#61dafb",
+              "rgba(57, 211, 83, 0.24)": "rgba(97, 218, 251, 0.24)",
+              "rgba(57, 211, 83, 0.015)": "rgba(97, 218, 251, 0.015)",
+          }
+
+          for path in Path("activity-dist").glob("*"):
+              if path.suffix.lower() in {".svg", ".html"}:
+                  text = path.read_text(encoding="utf-8")
+                  for old, new in replacements.items():
+                      text = text.replace(old, new)
+                  path.write_text(text, encoding="utf-8")
 
       - name: Publish generated branch
         env:
           TARGET_BRANCH: activity-assets
         run: |
           set -euo pipefail
+
           temp_dir="$(mktemp -d)"
           cp -a activity-dist/. "$temp_dir/"
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git switch --orphan "$TARGET_BRANCH"
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+
           cp -a "$temp_dir"/. .
+
           git add -A
-          git commit -m "chore: refresh activity chart"
+          git commit -m "Update GitHub activity chart" || echo "No changes to commit"
           git push --force origin "$TARGET_BRANCH"
