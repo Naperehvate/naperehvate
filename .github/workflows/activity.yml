@@ -1,0 +1,21 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate activity charts
+        uses: dturovskiy/deus-commit-chart@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
