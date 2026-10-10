@@ -1,0 +1,469 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1120"
+  height="390"
+  viewBox="0 0 1120 390"
+  role="img">
+
+  <title>GitHub Activity - Last 30 Days</title>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111821"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#61dafb" stop-opacity="0.30"/>
+      <stop offset="65%" stop-color="#61dafb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#61dafb" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow-strong" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect
+    x="0"
+    y="0"
+    width="1120"
+    height="390"
+    rx="8"
+    fill="url(#background)"
+  />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+
+    <text
+      x="62"
+      y="34"
+      fill="#c9d1d9"
+      font-size="18"
+      font-weight="600">
+      GitHub Activity - Last 30 Days
+    </text>
+
+    <text
+      x="62"
+      y="59"
+      fill="#8b949e"
+      font-size="12">
+      @Naperehvate · 42 contributions · 7 active days
+    </text>
+
+    <g>
+      <line x1="62.00" y1="92" x2="62.00" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="62.00" y="354" text-anchor="middle" fill="#8b949e" font-size="11">11 Sep</text><line x1="133.03" y1="92" x2="133.03" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="133.03" y="354" text-anchor="middle" fill="#8b949e" font-size="11">13 Sep</text><line x1="204.07" y1="92" x2="204.07" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="204.07" y="354" text-anchor="middle" fill="#8b949e" font-size="11">15 Sep</text><line x1="275.10" y1="92" x2="275.10" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="275.10" y="354" text-anchor="middle" fill="#8b949e" font-size="11">17 Sep</text><line x1="346.14" y1="92" x2="346.14" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="346.14" y="354" text-anchor="middle" fill="#8b949e" font-size="11">19 Sep</text><line x1="417.17" y1="92" x2="417.17" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="417.17" y="354" text-anchor="middle" fill="#8b949e" font-size="11">21 Sep</text><line x1="488.21" y1="92" x2="488.21" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="488.21" y="354" text-anchor="middle" fill="#8b949e" font-size="11">23 Sep</text><line x1="559.24" y1="92" x2="559.24" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="559.24" y="354" text-anchor="middle" fill="#8b949e" font-size="11">25 Sep</text><line x1="630.28" y1="92" x2="630.28" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="630.28" y="354" text-anchor="middle" fill="#8b949e" font-size="11">27 Sep</text><line x1="701.31" y1="92" x2="701.31" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="701.31" y="354" text-anchor="middle" fill="#8b949e" font-size="11">29 Sep</text><line x1="772.34" y1="92" x2="772.34" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="772.34" y="354" text-anchor="middle" fill="#8b949e" font-size="11">01 Oct</text><line x1="843.38" y1="92" x2="843.38" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="843.38" y="354" text-anchor="middle" fill="#8b949e" font-size="11">03 Oct</text><line x1="914.41" y1="92" x2="914.41" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="914.41" y="354" text-anchor="middle" fill="#8b949e" font-size="11">05 Oct</text><line x1="985.45" y1="92" x2="985.45" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="985.45" y="354" text-anchor="middle" fill="#8b949e" font-size="11">07 Oct</text><line x1="1056.48" y1="92" x2="1056.48" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="1056.48" y="354" text-anchor="middle" fill="#8b949e" font-size="11">09 Oct</text><line x1="1092.00" y1="92" x2="1092.00" y2="326" stroke="#21262d" stroke-width="1" opacity="0.45"/><text x="1092.00" y="354" text-anchor="middle" fill="#8b949e" font-size="11">10 Oct</text>
+      <line x1="62" y1="326.00" x2="1092" y2="326.00" stroke="#21262d" stroke-width="1"/><text x="48" y="330.00" text-anchor="end" fill="#8b949e" font-size="11">0</text><line x1="62" y1="267.50" x2="1092" y2="267.50" stroke="#21262d" stroke-width="1"/><text x="48" y="271.50" text-anchor="end" fill="#8b949e" font-size="11">3</text><line x1="62" y1="209.00" x2="1092" y2="209.00" stroke="#21262d" stroke-width="1"/><text x="48" y="213.00" text-anchor="end" fill="#8b949e" font-size="11">6</text><line x1="62" y1="150.50" x2="1092" y2="150.50" stroke="#21262d" stroke-width="1"/><text x="48" y="154.50" text-anchor="end" fill="#8b949e" font-size="11">8</text><line x1="62" y1="92.00" x2="1092" y2="92.00" stroke="#21262d" stroke-width="1"/><text x="48" y="96.00" text-anchor="end" fill="#8b949e" font-size="11">11</text>
+    </g>
+
+    <path
+      d="M 62.00 326.00 C 67.92 326.00 85.68 326.00 97.52 326.00 C 109.36 326.00 121.20 365.00 133.03 326.00 C 144.87 287.00 156.71 109.73 168.55 92.00 C 180.39 74.27 192.23 180.64 204.07 219.64 C 215.91 258.64 227.75 308.27 239.59 326.00 C 251.43 343.73 263.26 336.64 275.10 326.00 C 286.94 315.36 298.78 287.00 310.62 262.18 C 322.46 237.36 334.30 166.45 346.14 177.09 C 357.98 187.73 369.82 301.18 381.66 326.00 C 393.49 350.82 405.33 326.00 417.17 326.00 C 429.01 326.00 440.85 326.00 452.69 326.00 C 464.53 326.00 476.37 326.00 488.21 326.00 C 500.05 326.00 511.89 326.00 523.72 326.00 C 535.56 326.00 547.40 326.00 559.24 326.00 C 571.08 326.00 582.92 333.09 594.76 326.00 C 606.60 318.91 618.44 283.45 630.28 283.45 C 642.11 283.45 653.95 318.91 665.79 326.00 C 677.63 333.09 689.47 326.00 701.31 326.00 C 713.15 326.00 724.99 326.00 736.83 326.00 C 748.67 326.00 760.51 326.00 772.34 326.00 C 784.18 326.00 796.02 326.00 807.86 326.00 C 819.70 326.00 831.54 326.00 843.38 326.00 C 855.22 326.00 867.06 326.00 878.90 326.00 C 890.74 326.00 902.57 361.45 914.41 326.00 C 926.25 290.55 938.09 127.45 949.93 113.27 C 961.77 99.09 973.61 205.45 985.45 240.91 C 997.29 276.36 1009.13 311.82 1020.97 326.00 C 1032.80 340.18 1044.64 326.00 1056.48 326.00 C 1068.32 326.00 1086.08 326.00 1092.00 326.00 L 1092.00 326.00 L 62.00 326.00 Z"
+      fill="url(#area)"
+    />
+
+    <path
+      d="M 62.00 326.00 C 67.92 326.00 85.68 326.00 97.52 326.00 C 109.36 326.00 121.20 365.00 133.03 326.00 C 144.87 287.00 156.71 109.73 168.55 92.00 C 180.39 74.27 192.23 180.64 204.07 219.64 C 215.91 258.64 227.75 308.27 239.59 326.00 C 251.43 343.73 263.26 336.64 275.10 326.00 C 286.94 315.36 298.78 287.00 310.62 262.18 C 322.46 237.36 334.30 166.45 346.14 177.09 C 357.98 187.73 369.82 301.18 381.66 326.00 C 393.49 350.82 405.33 326.00 417.17 326.00 C 429.01 326.00 440.85 326.00 452.69 326.00 C 464.53 326.00 476.37 326.00 488.21 326.00 C 500.05 326.00 511.89 326.00 523.72 326.00 C 535.56 326.00 547.40 326.00 559.24 326.00 C 571.08 326.00 582.92 333.09 594.76 326.00 C 606.60 318.91 618.44 283.45 630.28 283.45 C 642.11 283.45 653.95 318.91 665.79 326.00 C 677.63 333.09 689.47 326.00 701.31 326.00 C 713.15 326.00 724.99 326.00 736.83 326.00 C 748.67 326.00 760.51 326.00 772.34 326.00 C 784.18 326.00 796.02 326.00 807.86 326.00 C 819.70 326.00 831.54 326.00 843.38 326.00 C 855.22 326.00 867.06 326.00 878.90 326.00 C 890.74 326.00 902.57 361.45 914.41 326.00 C 926.25 290.55 938.09 127.45 949.93 113.27 C 961.77 99.09 973.61 205.45 985.45 240.91 C 997.29 276.36 1009.13 311.82 1020.97 326.00 C 1032.80 340.18 1044.64 326.00 1056.48 326.00 C 1068.32 326.00 1086.08 326.00 1092.00 326.00"
+      fill="none"
+      stroke="#61dafb"
+      stroke-width="2.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#glow)"
+    />
+
+    
+        <circle
+          cx="62.00"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>11 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="97.52"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>12 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="133.03"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>13 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="168.55"
+          cy="92.00"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>14 Sep 2026: 11 contributions</title>
+        </circle>
+        
+        <circle
+          cx="204.07"
+          cy="219.64"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>15 Sep 2026: 5 contributions</title>
+        </circle>
+        
+        <circle
+          cx="239.59"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>16 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="275.10"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>17 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="310.62"
+          cy="262.18"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>18 Sep 2026: 3 contributions</title>
+        </circle>
+        
+        <circle
+          cx="346.14"
+          cy="177.09"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>19 Sep 2026: 7 contributions</title>
+        </circle>
+        
+        <circle
+          cx="381.66"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>20 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="417.17"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>21 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="452.69"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>22 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="488.21"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>23 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="523.72"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>24 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="559.24"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>25 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="594.76"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>26 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="630.28"
+          cy="283.45"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>27 Sep 2026: 2 contributions</title>
+        </circle>
+        
+        <circle
+          cx="665.79"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>28 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="701.31"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>29 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="736.83"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>30 Sep 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="772.34"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>01 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="807.86"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>02 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="843.38"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>03 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="878.90"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>04 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="914.41"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>05 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="949.93"
+          cy="113.27"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>06 Oct 2026: 10 contributions</title>
+        </circle>
+        
+        <circle
+          cx="985.45"
+          cy="240.91"
+          r="3.6"
+          fill="#ffffff"
+          stroke="#61dafb"
+          stroke-width="2"
+          opacity="1"
+          filter="url(#glow-strong)">
+          <title>07 Oct 2026: 4 contributions</title>
+        </circle>
+        
+        <circle
+          cx="1020.97"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>08 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="1056.48"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>09 Oct 2026: 0 contributions</title>
+        </circle>
+        
+        <circle
+          cx="1092.00"
+          cy="326.00"
+          r="2.1"
+          fill="#61dafb"
+          stroke="#0d1117"
+          stroke-width="1.2"
+          opacity="0.25"
+          >
+          <title>10 Oct 2026: 0 contributions</title>
+        </circle>
+        
+
+    <g transform="translate(992,34)">
+      <line
+        x1="0"
+        y1="0"
+        x2="26"
+        y2="0"
+        stroke="#61dafb"
+        stroke-width="2.8"
+        stroke-linecap="round"
+      />
+      <text
+        x="35"
+        y="4"
+        fill="#8b949e"
+        font-size="12">
+        Daily
+      </text>
+    </g>
+
+  </g>
+</svg>
